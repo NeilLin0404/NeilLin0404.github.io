@@ -1,0 +1,78 @@
+/* 容器樣式 */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(320deg, #FF7F50, #FFD700);
+}
+
+/* 左邊部分 */
+.left {
+    flex: 1;
+    background-color: orange; /* 橘色，帶透明度 */
+    display: flex;
+    align-items: center; /* 水平居中內容 */
+    justify-content: space-between; /* 分散圖片與導航 */
+}
+
+/* 右邊部分 */
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 0, 0.493); /* 黃色，帶透明度 */
+}
+
+.Titleindex {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#contentindex {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+    white-space: normal; 
+}
+
+.navigation {
+    
+    height: 100%;
+    width:300px;
+    border: 1px solid black;    
+}
+.navigator {
+    margin-left: 25%;
+    justify-content: center;
+
+}
+.navbutton {
+    width:100%;
+    height: 6em;
+    
+}
+/* .buttonp {
+    color: blue !important;
+    font-size: 25px !important; 
+} */
+p {
+    color: blue !important;
+    font-size: 25px !important; 
+}
+#indeximage {
+    width: 600px;
+}
+.seth {
+    background-image: url(./23bgi.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
