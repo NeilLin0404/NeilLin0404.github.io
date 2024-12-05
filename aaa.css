@@ -80,7 +80,7 @@ p {
 .titleseth {
     display: flex;
     height: 100px;
-    align-item: center;
+    align-items: center;
     justify-content: center;
     width:100%;
     color: red;
