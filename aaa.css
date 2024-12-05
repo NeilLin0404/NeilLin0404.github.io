@@ -76,3 +76,9 @@ p {
     height: 100%;
     background-size: cover;
 }
+.Titleseth {
+    display: flex;
+    height: 100px;
+    align-item: center;
+    justify-content: center;
+}
