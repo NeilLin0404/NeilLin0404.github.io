@@ -81,5 +81,6 @@ p {
     height: 100px;
     align-item: center;
     justify-content: center;
-    width:100%
+    width:100%;
+    color: red;
 }
