@@ -86,7 +86,6 @@ p {
 .titleseth {
     display: flex;
     height: 100px;
-    margin-left: 300px;
     align-items: center;
     justify-content: center;
     width:100%;
