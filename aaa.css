@@ -102,6 +102,9 @@ p {
     justify-content: center;
     text-align: center;
 }
+.secondcontent h1 {
+    color: red;
+}
 
 .main-content {
     width: 100%;
